@@ -45,18 +45,18 @@ Get-FileHash .\VisionMPV_v1.36.zip -Algorithm SHA256
 
 ## macOS 版（Apple 芯片）
 
-首个 Mac 版本 **1.36.1**，已通过苹果公证。在 [Mac 版发布页](../../releases/tag/v1.36.1-mac) 下载 `VisionMPV_v1.36.1_macOS_arm64.dmg`。
+当前 Mac 版本 **1.36.3**，已通过苹果公证。在 [Mac 版发布页](../../releases/tag/v1.36.3-mac) 下载 `VisionMPV_v1.36.3_macOS_arm64.dmg`。
 
-- **系统要求**：M 系列芯片的 Mac，macOS 26 或更新版本；不支持 Intel 芯片的 Mac。
+- **系统要求**：M 系列芯片的 Mac，macOS 15 或更新版本；不支持 Intel 芯片的 Mac。
 - **安装**：打开 dmg，把 VisionMPV.app 拖到“应用程序”，再从“应用程序”里打开。第一次打开时 macOS 会确认是否打开从网上下载的 App，点“打开”即可。dmg 里的“先读我.txt”写了快捷键、设置和日志的位置。
-- **能用的**：海报墙（本地片库、Emby）、蓝光原盘 ISO / BDMV 与 BD-J 菜单、DVD、内封 / 外挂 / 在线字幕、全景声 / DTS:X 扬声器渲染与双耳渲染、HDR 与杜比视界（视界原生或 CB1 引擎）、刷新率跟随影片、电脑设置中心、手机遥控、电视直播。
+- **能用的**：海报墙（本地片库、多台 Emby / Jellyfin / 飞牛影视合库）、蓝光原盘 ISO / BDMV 与 BD-J 菜单、DVD、内封 / 外挂 / 在线字幕、全景声 / DTS:X 扬声器渲染与多声道虚拟声卡、HDR 与杜比视界（视界原生或 CB1 引擎，支持 Profile 7 增强层合成）、多语言与视界中心、刷新率跟随影片、手机遥控、电视直播。
 - **暂不支持**：在线检查更新（新版请到发布页下载后替换）、杜比视界电视直通、RTX HDR、ASIO、TrueHD / DTS-HD 源码直通。外接电视和显示器上的刷新率切换与 HDR 还没有实测，欢迎反馈。
 - **快捷键**：Windows 上用 Ctrl 的键在 Mac 上多数改成 ⌘（如 ⌘O 打开文件）；W、T、K、F 等单键与 Windows 相同。
 
 下载后可在“终端”核对文件，结果应与发布页写明的 SHA-256 一致：
 
 ```bash
-shasum -a 256 ~/Downloads/VisionMPV_v1.36.1_macOS_arm64.dmg
+shasum -a 256 ~/Downloads/VisionMPV_v1.36.3_macOS_arm64.dmg
 ```
 
 ## 常用按键
