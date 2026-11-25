@@ -2,7 +2,7 @@
 
 面向电视、投影和家庭影院的影音播放器，支持 Windows 和 Apple 芯片的 Mac（见下方“macOS 版”一节）。可用遥控器浏览海报墙、选集、续播和切换直播频道，也支持在电脑上拖放文件、调整字幕与画质。
 
-> 当前发布版本：**v1.36**。本仓库先提供应用介绍和安装包；源码计划后续整理上传。暂未附开源许可证，软件及素材的使用权限以作者后续说明为准。
+> 当前发布版本：**v1.37**。本仓库先提供应用介绍和安装包；源码计划后续整理上传。暂未附开源许可证，软件及素材的使用权限以作者后续说明为准。
 
 ## 主要功能
 
@@ -26,19 +26,19 @@
 
 ## 下载与使用
 
-在 [Releases](../../releases) 下载 v1.36：
+在 [Releases](../../releases) 下载 v1.37：
 
 | 文件 | 用途 |
 | --- | --- |
-| `VisionMPV_Setup_v1.36.exe` | Windows 安装程序 |
-| `VisionMPV_v1.36.zip` | 压缩包版本 |
-| `VisionMPV_v1.36.sha256` | 两个文件的 SHA-256 校验值 |
+| `VisionMPV_Setup_v1.37.exe` | Windows 安装程序 |
+| `VisionMPV_v1.37.zip` | 压缩包版本 |
+| `VisionMPV_v1.37.sha256` | 两个文件的 SHA-256 校验值 |
 
 下载后可用 PowerShell 核对文件：
 
 ```powershell
-Get-FileHash .\VisionMPV_Setup_v1.36.exe -Algorithm SHA256
-Get-FileHash .\VisionMPV_v1.36.zip -Algorithm SHA256
+Get-FileHash .\VisionMPV_Setup_v1.37.exe -Algorithm SHA256
+Get-FileHash .\VisionMPV_v1.37.zip -Algorithm SHA256
 ```
 
 将输出的哈希值与 `.sha256` 文件对应的文件名逐项比较。杜比视界直通、全景声与原盘菜单等功能依赖相应硬件、系统环境和片源；播放时按 **I** 可查看当前实际输出。
